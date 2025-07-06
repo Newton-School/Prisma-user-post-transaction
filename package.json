@@ -1,0 +1,24 @@
+{
+    "name": "node-20-with-mysql-runtime-boilerplate",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 6000 --exit",
+        "start": "node src/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@prisma/client": "^5.20.0",
+        "dotenv": "16.4.5",
+        "express": "^4.21.1",
+        "mochawesome": "6.1.1",
+        "prisma": "^5.20.0"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "chai-http": "^4.3.0",
+        "mocha": "^8.2.1"
+    }
+}
